@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Este es solo un borrador.</title>
+</head>
+
+ 
+<style>
+ /*   div{
+        border: solid red 2px;
+        margin: 20px;
+
+    }
+        body>div:nth-child(1){
+           display: none;
+        }
+        body>div:nth-child(2){
+           display: block;
+        }
+        body>div:nth-child(3){
+           display: inline;
+        }
+        body>div:nth-child(4){
+           display: inline-block;
+        }
+        body>div:nth-child(5){
+           display: inherit;
+        }
+        body>div:nth-child(6){
+           display: flex;
+        }
+        body>div:nth-child(7){
+           display: grid;
+        }
+
+*/
+
+body>div{
+    height:400px;
+
+}
+
+div{
+    border: solid 2px;
+    margin: 30px;
+
+}
+
+body>div:nth-child(1)>div{
+    border-color: green;
+    left: 30px;
+
+
+}
+body>div:nth-child(2)>div{
+    border-color: blue;
+    left: 150px;
+}
+body>div>div:nth-child(1){
+    position:static;
+}
+body>div>div:nth-child(2){
+    position:relative;
+    top: 80px;
+}
+body>div>div:nth-child(3){
+    position:absolute;
+    top: 90px;
+}
+body>div>div:nth-child(4){
+    position:inherit;
+
+}
+body>div>div:nth-child(5){
+    position:fixed;
+    top:120px; 
+}
+body>div>div:nth-child(6){
+    position:sticky;
+    top: 120px;
+}
+
+
+</style>
+
+    
+  
+  <body>
+  <!---
+        <div>PADRE none
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+    </div>
+    <div>PADRE block
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+    </div>
+    <div>PADRE inline
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+    </div>
+    <div>PADRE inline-block
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+    </div>
+    <div>PADRE inherit
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+    </div>
+    <div>PADRE flex
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+    </div>
+    <div>PADRE grid
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>HIJO
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+    </div>
+--->
+
+
+
+<div>PADRE
+    <div>HIJO static</div>
+    <div>HIJO relative</div>
+    <div>HIJO absolute</div>
+    <div>HIJO inherit</div>
+    <div>HIJO fixed</div>
+    <div>HIJO sticky</div>
+</div>
+<div>PADRE
+    <div>HIJO static</div>
+    <div>HIJO relative</div>
+    <div>HIJO absolute</div>
+    <div>HIJO inherit</div>
+    <div>HIJO fixed</div>
+    <div>HIJO sticky</div>
+</div>
+
+
+
+
+  </body>
+
+
+</html>
