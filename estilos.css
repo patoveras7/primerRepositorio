@@ -6,7 +6,8 @@
 }
 
 .box{
-
+    background-color: orangered;
+    color: black;
     padding: 1px;
     border: 5px solid black;
     margin: 50 40 30 40;
