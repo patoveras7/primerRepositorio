@@ -37,6 +37,13 @@ h1, h2{
 
 }
 
+.comentario {
+
+background-color: turquoise;
+color: black;
+
+}
+
 .externo{
 
     border-style: solid;
